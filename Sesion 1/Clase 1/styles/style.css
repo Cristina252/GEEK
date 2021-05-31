@@ -1,0 +1,107 @@
+/*asi se hace comentarios en CSS*/
+/*SELECTORES_ Como se ponen*/
+
+/*SELECTOR universal.se coloca astericos y eso significa que
+se le aplique a todo el texto que tengo siguiente
+y se usa llaves*/
+*{
+color:darkslategray
+}
+
+
+/*selector etiqueta- le aplic el estilo a una etique
+en particular- ejemplo con etique p (parrafos)*/
+
+p{
+    color:gold
+}
+
+/*selector clase- se usa colocando punto- . - y
+se llama el nombre de class asignado en html*/
+
+.ejemplo{
+    color:hotpink
+}
+
+
+/*selector id- se usa colocando # -numeral- y el nombre del id */
+#ejemploId{
+    color:maroon
+}
+
+/*selector de grupo o combinacion de selectores*/
+p, .ejemplo, #ejemploId{
+    font-size: 50px;
+}
+
+
+/*psudo clase como selector- hover*/
+.texr{
+    color:red
+}
+
+.text:hover{
+    background-color: salmon;
+    color: white
+}
+
+/*body{
+    background-color: rosybrown;
+}
+*/
+
+body{
+    background-image: url("/imagenes/fondo.jpg"); /*le coloca fondo a la página*/
+    background-repeat: no-repeat; /*no repite la imagen*/
+    background-attachment: scroll; 
+    /* fixed- permite que la imagen se quede fija y se mueva
+    solo el texto
+    - scrollpermite que la imagen se mueva*/
+    background-position: left top; /*indica la posición de la imagen*/
+}
+
+/*border*/
+#e1{
+    border: 10px dotted: black;
+}
+
+#e2{
+    border: 5px dashed:blueviolet;
+}
+
+#e3{
+    border:5px solid:blueviolet;
+}
+
+#e4{
+    border: 5px double:blueviolet;
+}
+
+/*Elemento en bloque*/
+#bloqueP{
+    border
+}
+
+
+
+/*Elemento en linea*/
+
+
+
+
+
+
+
+
+
+/*otras pseudoclases visited, link, active*/
+/*unidades de longitud absolutas y relativas (tamaños respecto a la pantalla)
+cm -  centimetros
+px -  pixeles
+pc - picas
+in -  pulgadas
+
+
+
+1 em -- 16px %
+*/

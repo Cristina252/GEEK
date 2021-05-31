@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Con la linea de codigo que sigue_LINK_ REL_ HREF
+vinculo mi código html con CSS-->
+    <link rel="stylesheet" href="styles/style.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <!--Encabezado o headings-->
+    <h1>Soy un encabezado</h1>
+    <h2>Soy un encabezado</h2>
+    <h3>Soy un encabezado</h3>
+    <h4>Soy un encabezado</h4>
+    <h5>Soy un encabezado</h5>
+    <h6>Soy un encabezado</h6>
+
+    <!--Párrafo-->
+    <p>Este es un párrafo</p>
+    <p>Este es otro párrafo</p>
+
+    <!--br se usa para hacer un salto en el párrafo-->
+    <p>Si caminas solo, irás más rápido <br>
+    Si caminas acompañadp, llegarás más lejos</p>
+
+    <!--Listas ordenas ol y las listas No ordenadas con ul
+    li marcamos un elemento de la lista-->
+    <h3>Lista Ordenada</h3>
+    <ol>
+        <li>Inicio</li>
+        <li>Nosotros</li>
+        <li>Contáctenos</li>
+    </ol>
+    <h3>Lista NO ordenada</h3>
+    <ul>
+        <li>Inicio</li>
+        <li>Nosotros</li>
+        <li>Contáctenos</li>
+    </ul>
+
+    <!--Divisiones- sirve como CONTENEDOR: div
+    podemos agrupar contenido, podemos crear secciones
+    dentro de una página-->
+    <div style="border: 5px outset:blue">  </div>
+
+    <!--section-->
+    <section>
+        <p>
+            Soy la etiqueta section y defino secciones de un documentos
+        </p>
+    </section>
+    <!--header es la parte superior de la página web-->
+    <header>
+        <p>Soy la parte superior de la página web, puede asignamer un logo, un menú y demás información</p>
+    </header>
+
+    <!--main parte de cuerpo de la página-->
+    <main>
+        <p>Aquí estará el cuerpo principal del cuerpo página o body</p>
+    </main>
+
+    <!--article-->
+    <article>
+        <p>Puedo agrupar contenido como párrafos, comentarios, imagenes,
+            y publicacion en el foro, entradas en un blog </p>
+    </article>
+
+    <!--aside-->
+    <aside>
+        <p>representa el contenido secundario de la página
+            normalmente se asgina al lado derecho o 
+            izquierdo de la página.
+        </p>
+    </aside>
+
+    <!--footer o pie de página-->
+    <footer>
+        <p>soy el pie de página, se puede escribir
+            la información del autor, datos de contacto. etc.
+        </p>
+    </footer>
+
+    <!--a etiqueta de hipervinculo y necesito un atributo -href-->
+    <a href="https://www.google.com">Google </a>
+
+<!--tablas-->
+    <table>
+        <thead>
+            <!--cabecera de la tabla-->
+            <tr>
+                <!--fila de la cabecera-->
+                <th>Nombre</th>
+                <!--columna-->
+                <th>Apellido</th>
+                <th>Teléfono</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!--cuerpo de la tabla-->
+            <tr>
+                <!--fila-->
+                <td>Jenny</td>
+                <!--columna del cuerpo de la tabla-->
+    
+                <tr>
+                    <!--fila-->
+                    <td>Alexandra</td>
+                    <!--columna del cuerpo de la tabla-->
+                    <td>Cortés</td>
+                    <td>88888</td>
+                </tr>
+            </tbody>
+        </table>
+        
+
+    <!--imágenes debe tener un atributo src que busca el link
+    title_ saca nombre cuando se pone el clic sobre la foto
+    alt_ aparece cuando hay un error en el link de página-->
+
+    <img src="imagenes/377a80e510c8c6440b1301bf95fa1b3d.jpg" title="Don gato" alt="gatito">
+
+    <!--audio-->
+
+    <audio src="multimedia/animals020.mp3" controls></audio>    
+
+    <!--video-->
+    <video src="multimedia/videoplayback.mp4" controls></video>
+
+    
+    <!--iframe otra forma de poner videos-->
+    <iframe width="857" height="482" src="https://www.youtube.com/embed/3BBfFaS03qo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>"
+
+    <!--CURSIVA Y NEGRITA-->
+    <p><strong>un párrafo en negrita con strong, es la que más se usa</strong> </p>
+    <p><b>Soy un párrafo en negrita con bold, casi no se usa ya</b></p>
+
+    <p><em>Soy un párrafo en cursiva con em, es la que más se usa</em></p>
+    <p><i>Soy un párrafo en cursiva con i, casi no se usa</i></p>
+
+
+    <!--Details -Detalles y Summary-->
+    <details>
+        <summary>Algunos detalles</summary>
+        <p>Más información del detalle</p>
+    </details>
+
+<!--selector clase-->
+<h2 class="ejemplo">Soy selector clase</h2>
+<h2 class="ejemplo">Soy h2</h2>
+<h2 id="ejemploId">soy un ejemplo</h2>
+<p class="ejemplo">Soy un ejemplo de etiqueda clase</p>
+
+
+<!--psudoclase como sleector-->
+<a href="#" class="text">pseudo clase como selector</a>
+
+
+<!--Border-->
+<h1 id="e1">Borde punteado</h1>
+<h1  id="e2">Borde punteado en linea</h1>
+<h1  id="e3">Borde solido continuo</h1>
+<h1  id="e4">Borde doble</h1>
+
+<!--anclaje interno-->
+<a></a>
+
+</body>
+</html>
